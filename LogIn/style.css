@@ -1,0 +1,70 @@
+/* reset */
+html {
+    font-size: 62.5%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background: #eff0f4;
+}
+.wrap {
+    width: 100%;
+    height: 30rem;
+}
+.header {
+    display: -webkit-flex; /* Safari */
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1% 0 1%;
+    width: 98%;
+    height: 20%;
+    background: #5fc0cd;
+    color:white;
+}
+.first {
+    order: 1;
+    flex-basis: 9%;
+    font-size: 1.6rem;
+    text-align: left;
+}
+.second {
+    order: 2;
+    flex-basis: 80%;
+    font-size: 2rem;
+    text-align: center;
+}
+.third {
+    order: 3;
+    flex-basis: 9%;
+    font-size: 1.6rem;
+    text-align: right;
+}
+.content {
+    width: 100%;
+    height: 80%;
+}
+.box {
+    display: block;
+    margin-top: 1%;
+    width: 100%;
+    height: auto;  
+}
+.mobile {
+    width: 80%;
+    padding-left: 20%;
+    background: url("images/mobile.png") no-repeat left ;
+    background-color: white;
+}
+.content > a {
+    display: block;
+    margin-top: 1%;
+    padding-right: 1%;
+    width: 99%;
+    height: 20%;
+    text-align: right;
+}
+.content > a:link {
+    color: #5fc0cd;
+}
