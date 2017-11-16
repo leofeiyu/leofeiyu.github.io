@@ -4,67 +4,66 @@ html {
 }
 body {
     margin: 0;
-    padding: 0;
     background: #eff0f4;
 }
-.wrap {
-    width: 100%;
-    height: 30rem;
-}
-.header {
-    display: -webkit-flex; /* Safari */
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 1% 0 1%;
-    width: 98%;
-    height: 20%;
+/* main */
+header {
+    padding: 0 0.5rem;
+    height: 4.5rem;
+    line-height: 4.5rem;
     background: #5fc0cd;
     color:white;
 }
-.first {
-    order: 1;
-    flex-basis: 9%;
-    font-size: 1.6rem;
-    text-align: left;
+header a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.4rem;
 }
-.second {
-    order: 2;
-    flex-basis: 80%;
-    font-size: 2rem;
+.head-left {
+    float: left;
+}
+.head-right {
+    float: right; 
+}
+header h2 {
     text-align: center;
+    margin: 0;
 }
-.third {
-    order: 3;
-    flex-basis: 9%;
-    font-size: 1.6rem;
-    text-align: right;
+main {
+    height: 21.5rem;
+    overflow: hidden;
 }
-.content {
-    width: 100%;
-    height: 80%;
+form {
+    height: 19rem;
 }
-.box {
+input, button {
     display: block;
-    margin-top: 1%;
+    margin: 1rem 0;
     width: 100%;
-    height: auto;  
+    height: 5rem;
+    border: 0;
 }
 .mobile {
-    width: 80%;
-    padding-left: 20%;
-    background: url("images/mobile.png") no-repeat left ;
-    background-color: white;
+    background-image: url(images/mobile.png);
+    background-repeat: no-repeat;
+    background-size: 6rem;
+    padding-left: 10rem;
 }
-.content > a {
+.lock {
+    background-image: url(images/lock.png);
+    background-repeat: no-repeat;
+    background-size: 6rem;
+    padding-left: 10rem;
+}
+button {
+    background: #5fc0cd;
+    color:white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.tip {
     display: block;
-    margin-top: 1%;
-    padding-right: 1%;
-    width: 99%;
-    height: 20%;
     text-align: right;
-}
-.content > a:link {
+    padding-right: 1rem;
     color: #5fc0cd;
 }
