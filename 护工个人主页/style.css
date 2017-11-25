@@ -1,0 +1,133 @@
+/* reset */
+html {
+    font-size: 62.5%;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+/* main */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 85px;
+    background-color: rgb(95, 192, 205);
+}
+header > h1 {
+    background-image: url(images/返回.png);
+    background-position: 3.5rem;
+    background-repeat: no-repeat;
+    background-size: auto 3.6rem; 
+    text-align: center;
+    color: white;
+    font-size: 3.6rem;
+    font-family: stheitisc;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 0 5.5%;
+    width: 89%;
+    height: 170px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+}
+footer > button {
+    width: 43%;
+    height: 88px;  
+    border-radius: 5px;
+    border: 1px solid rgb(95, 192, 205);
+    font-size: 3.6rem;
+}
+.btn-first { 
+    background-color: white;
+    color: rgb(95, 192, 205);
+}
+.btn-second {
+    background-color:rgb(95, 192, 205);
+    color: white;
+}
+main {
+    height: 925px;
+    margin-bottom: 200px;
+}
+.introduce {
+    margin-top: 85px;
+    height: 325px;
+    background: url(images/背景.jpg) no-repeat;
+    background-size: 100%;
+}
+.secondary {
+    float: left;
+    margin: 80px 4%;
+}
+.primary {
+    float: left;
+    margin-top: 115px;
+    margin-left: 1.4%;
+    color: white;
+}
+.primary > div {
+    margin-bottom: 25px;
+}
+#name {
+    margin-right: 30px;
+    font-size: 3.6rem;
+}
+#age {
+    font-size: 2.8rem;
+}
+.address {
+    padding-left: 35px;
+    background-image: url(images/地点标.png);
+    background-repeat: no-repeat;
+    font-size: 2.4rem;
+}
+.skill {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 600px;
+}
+.skill > div {
+    height: 100px;
+    align-items: center;
+    display: flex;
+    flex-flow: row nowrap;
+    border-bottom: 1px solid rgb(225, 229, 231); 
+    font-size: 3.2rem;
+}
+.title {
+    padding-left: 30px;
+}
+.title > div {
+    flex-basis: 30px;
+}
+.condition, .ordinary {
+    margin-left: 32px;
+}
+.condition > div {
+    background-image: url(images/星星.png);
+    background-repeat: no-repeat;
+    background-position-y: 10px;
+    padding-left: 30px;
+    flex-basis: 125px;
+}
+.first-column {
+  border-right: 1px solid rgb(225, 229, 231);
+  color: rgb(155, 155, 155);
+  flex-basis: 26%;
+  text-align: left;
+}
+.ordinary > div {
+    padding-left: 20px;
+}
+#price {
+    color: red;
+}
